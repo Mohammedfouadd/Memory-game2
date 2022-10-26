@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>speed Game</title>
+</head>
+<body>
+    <h1>Typing Speed Test Game</h1>
+    <div class="container">
+        
+       
+        <div class="levles">
+            <div class="select">select level  <select name="level" id="level"> 
+                <option value="Esey">Esey</option>
+                <option value="normal">normal</option>
+                <option value="hard">hard</option>
+            </select></div>
+            You Are Playing On <span class="level"></span> Level & You Have <span class="seconds"></span> Seconds To Type The Word</div>
+        <button id="start">Start Playing</button>
+        <div class="theWord"></div>
+        <input type="text" id="input" placeholder="write here">
+        <div class="words">words show here</div>
+        <div class="timeScore">
+            <div class="time">Time Left: <span>seconds</span> </div>
+            <div class="score">score: <span class="to ">0</span> from <span class="from"> 30</span></div>
+        </div>
+        
+        <span class="good">congratulations</span>
+        <span class="bad">Game Over</span>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
